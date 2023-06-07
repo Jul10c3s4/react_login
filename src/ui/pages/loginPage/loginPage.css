@@ -1,0 +1,59 @@
+.loginPage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem 3rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.container h1{
+    color: green;
+    margin: 1rem 0;
+    font-size: 25;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-weight: 400;
+    font-size: 18;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+form input{
+    font-size: 18px;
+    padding-left: 1rem;
+    outline-color: green;
+    height: 3rem;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+form button{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    height: 3rem;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    margin-top: 2rem;
+}
